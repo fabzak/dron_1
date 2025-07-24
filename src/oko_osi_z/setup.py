@@ -12,7 +12,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', glob('launch/*.py')),
         ('share/' + package_name + '/worlds', glob('worlds/*.sdf')),
-        ('share/' + package_name + '/urdf', glob('urdf/*.urdf.xacro')),  # ✅ DODANO
+        ('share/' + package_name + '/urdf', glob('urdf/*.urdf.xacro')),
         ('share/' + package_name + '/models/crazyflie', glob('models/crazyflie/*.sdf')),
         ('share/' + package_name + '/models/crazyflie/meshes/collada_files', glob('models/crazyflie/meshes/collada_files/*.dae')),
         ('share/' + package_name + '/rviz', glob('rviz/*.rviz')),
